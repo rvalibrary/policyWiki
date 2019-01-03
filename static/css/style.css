@@ -1,0 +1,45 @@
+#rpl_navbar{
+  background-color: #003652;
+  border-color: #003652;
+
+}
+#rpl_navbar  a{
+  color: white;
+}
+
+#rpl_navbar > div > div.navbar-collapse.collapse > div > ul > li > ul > li > a {
+  color: black;
+}
+
+#rpl_navbar > div > div.navbar-collapse.collapse > div > ul > li.open > a{
+  background-color: #007fc0;
+}
+
+
+span.badge.notification-cnt{
+  background-color:#0072ad;
+}
+
+
+/* Article Index max-width */
+.wiki-article div.article-list{max-width: 100%;}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+  background-color: #ff7236;
+}
+
+.btn-group{border: 1px solid white!important;}
+.btn-info:active:hover, .btn-info.active:hover, .open>.dropdown-toggle.btn-info:hover,
+.btn-info:active:focus, .btn-info.active:focus, .open>.dropdown-toggle.btn-info:focus,
+.btn-info:active.focus, .btn-info.active.focus, .open>.dropdown-toggle.btn-info.focus,
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info
+{
+  background-color: #ff7236;
+  border-color: #ff7236;
+}
+
+.btn-primary
+{
+  background-color: #006599!important;
+  border-color: #006599!important;
+}
